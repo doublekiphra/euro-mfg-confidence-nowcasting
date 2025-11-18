@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+tqdm
+jupyter
+statsmodels
+python-dotenv
