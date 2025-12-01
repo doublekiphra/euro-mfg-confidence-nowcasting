@@ -51,6 +51,6 @@ To analyze massive amounts of text cost-effectively, we used a knowledge distill
 │   ├── data-preproccesing.ipynb  # GDELT cleaning, dedup, and filtering
 │   └── llm-fine-tuned.ipynb      # Gemini labeling, Student model training, and ARX forecasting
 ├── slides/
-│   └── DSAA5020-Project_data+LLM.pdf # Detailed presentation slides
+│   └── data+LLM.pdf # Detailed presentation slides
 ├── results/                # Saved models and forecast plots
 └── README.md
