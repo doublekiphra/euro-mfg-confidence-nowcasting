@@ -29,7 +29,7 @@ The pipeline consists of three main stages:
 
 ### 2. LLM Distillation (Teacher-Student Framework)
 To analyze massive amounts of text cost-effectively, we used a knowledge distillation approach:
-* **Teacher:** **Gemini-1.5/2.5-Pro**. Scored a representative subset (Teacher Set) of headlines on a scale of -1 to 1.
+* **Teacher:** **Gemini-2.5-Pro**. Scored a representative subset (Teacher Set) of headlines on a scale of -1 to 1.
 * **Students:** Trained lightweight regressors on the Teacher's labels:
     * *Student A:* FinBERT + Random Forest
     * *Student B:* DeBERTa-Financial + Random Forest
